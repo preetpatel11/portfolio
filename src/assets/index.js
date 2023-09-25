@@ -7,6 +7,9 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
+import python from "./tech/python.png"
+import java from "./tech/java.png"
+import github_trans from "./tech/github_trans.png"
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
@@ -21,13 +24,17 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
+import softvan from "./company/softvan.png"
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
-
-import carrent from "./carrent.png";
+import stan from "./company/stan.png"
+import Picture1 from "./Picture1.png";
+import Picture2 from "./Picture2.png";
+import FitnessWorld from "./FitnessWorld.png"
 import jobit from "./jobit.png";
+import stan_ly from "./stan_ly.png"
 import tripguide from "./tripguide.png";
 
 export {
@@ -41,8 +48,14 @@ export {
   close,
   css,
   docker,
+  python,
   figma,
+  java,
   git,
+  Picture1,
+  Picture2,
+  FitnessWorld,
+  stan_ly,
   html,
   javascript,
   mongodb,
@@ -51,12 +64,14 @@ export {
   redux,
   tailwind,
   typescript,
+  github_trans,
   threejs,
   meta,
   shopify,
   starbucks,
+  stan,
+  softvan,
   tesla,
-  carrent,
   jobit,
   tripguide,
 };
