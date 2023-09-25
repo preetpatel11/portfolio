@@ -1,265 +1,333 @@
 import {
-    mobile,
-    backend,
-    creator,
-    web,
-    javascript,
-    typescript,
-    html,
-    css,
-    reactjs,
-    redux,
-    tailwind,
-    nodejs,
-    mongodb,
-    git,
-    figma,
-    docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
-    threejs,
-  } from "../assets";
-  
-  export const navLinks = [
-    {
-      id: "about",
-      title: "About",
-    },
-    {
-      id: "work",
-      title: "Work",
-    },
-    {
-      id: "contact",
-      title: "Contact",
-    },
-  ];
-  
-  const services = [
-    {
-      title: "Web Developer",
-      icon: web,
-    },
-    {
-      title: "React Native Developer",
-      icon: mobile,
-    },
-    {
-      title: "Backend Developer",
-      icon: backend,
-    },
-    {
-      title: "Content Creator",
-      icon: creator,
-    },
-  ];
-  
-  const technologies = [
-    {
-      name: "HTML 5",
-      icon: html,
-    },
-    {
-      name: "CSS 3",
-      icon: css,
-    },
-    {
-      name: "JavaScript",
-      icon: javascript,
-    },
-    {
-      name: "TypeScript",
-      icon: typescript,
-    },
-    {
-      name: "React JS",
-      icon: reactjs,
-    },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
-      name: "Tailwind CSS",
-      icon: tailwind,
-    },
-    {
-      name: "Node JS",
-      icon: nodejs,
-    },
-    {
-      name: "MongoDB",
-      icon: mongodb,
-    },
-    {
-      name: "Three JS",
-      icon: threejs,
-    },
-    {
-      name: "git",
-      icon: git,
-    },
-    {
-      name: "figma",
-      icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
-    },
-  ];
-  
-  const experiences = [
-    {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-  ];
-  
-  const testimonials = [
-    {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
-  ];
-  
-  const projects = [
-    {
-      name: "Car Rent",
-      description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "mongodb",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: carrent,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Job IT",
-      description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
-    },
-  ];
-  
-  export { services, technologies, experiences, testimonials, projects };
+  mobile,
+  backend,
+  creator,
+  web,
+  javascript,
+  typescript,
+  html,
+  css,
+  github_trans,
+  reactjs,
+  python,
+  redux,
+  java,
+  tailwind,
+  nodejs,
+  mongodb,
+  git,
+  figma,
+  stan,
+  softvan,
+  Picture1,
+  Picture2,
+  FitnessWorld,
+  stan_ly,
+  jobit,
+  tripguide,
+} from "../assets";
+
+
+export const navLinks = [
+  {
+    id: "about",
+    title: "About",
+  },
+  {
+    id: "work",
+    title: "Work",
+  },
+  {
+    id: "contact",
+    title: "Contact",
+  },
+];
+
+const services = [
+  {
+    title: "Web Developer",
+    icon: web,
+  },
+  {
+    title: "Full-Stack Developer",
+    icon: mobile,
+  },
+  {
+    title: "Backend Developer",
+    icon: backend,
+  },
+  // {
+  //   title: "Full Stack Developer",
+  //   icon: creator,
+  // },
+];
+
+const technologies = [
+  {
+    name: "HTML 5",
+    icon: html,
+  },
+  {
+    name: "CSS 3",
+    icon: css,
+  },
+  {
+    name: "JavaScript",
+    icon: javascript,
+  },
+  {
+    name: "TypeScript",
+    icon: typescript,
+  },
+  {
+    name: "React JS",
+    icon: reactjs,
+  },
+  {
+    name: "JAVA",
+    icon: java,
+  },
+  {
+    name: "Python",
+    icon: python,
+  },
+  {
+    name: "Tailwind CSS",
+    icon: tailwind,
+  },
+  {
+    name: "Node JS",
+    icon: nodejs,
+  },
+  {
+    name: "MongoDB",
+    icon: mongodb,
+  },
+  {
+    name: "GitHub",
+    icon: github_trans,
+  },
+  {
+    name: "git",
+    icon: git,
+  },
+  {
+    name: "figma",
+    icon: figma,
+  },
+
+];
+
+const experiences = [
+  {
+    title: "Software Engineer Intern",
+    company_name: "Stan",
+    icon: stan,
+    iconBg: "#383E56",
+    date: "April 2023 - August 2023",
+    points: [
+      "Worked as part of the team to build the end-to-end development of stan.ly's URL shortening platform, taking it from concept to production.",
+      "Designed and architected the system for optimal performance and scalability.",
+      "Utilized React and TypeScript for the frontend, MongoDB for the backend, and harnessed AWS, Amplify, and Lambda for hosting and scalability.",
+      "Implemented user-customizable short codes to enhance user convenience along with key features including redirection, pagination, navigation, search functionality and implemented a custom 404 error page for a seamless user experience.",
+    ],
+  },
+  {
+    title: "Softvan Engineer Intern",
+    company_name: "Softvan Pvt Ltd.",
+    icon: softvan,
+    iconBg: "#E6DEDD",
+    date: "Jan 2021 - June 2021",
+    points: [
+      "Independently developed and deployed a dynamic e-commerce website utilizing Python, Flask, OpenCV, MySQL, HTML, CSS, and JavaScript.",
+      "Implemented essential features, including user authentication, login, registration, and password recovery, as part of the 'Cloth Shopping Using Augmented Reality' project.",
+      "Collaborated closely with mentors and team members to devise coding strategies and implementation approaches, facilitating knowledge transfer and practical application of learned skills.",
+    ],
+  },
+  // {
+  //   title: "Web Developer",
+  //   company_name: "Shopify",
+  //   icon: shopify,
+  //   iconBg: "#383E56",
+  //   date: "Jan 2022 - Jan 2023",
+  //   points: [
+  //     "Developing and maintaining web applications using React.js and other related technologies.",
+  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //     "Implementing responsive design and ensuring cross-browser compatibility.",
+  //     "Participating in code reviews and providing constructive feedback to other developers.",
+  //   ],
+  // },
+  // {
+  //   title: "Full stack Developer",
+  //   company_name: "Meta",
+  //   icon: meta,
+  //   iconBg: "#E6DEDD",
+  //   date: "Jan 2023 - Present",
+  //   points: [
+  //     "Developing and maintaining web applications using React.js and other related technologies.",
+  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //     "Implementing responsive design and ensuring cross-browser compatibility.",
+  //     "Participating in code reviews and providing constructive feedback to other developers.",
+  //   ],
+  // },
+];
+
+const testimonials = [
+  {
+    testimonial:
+      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+    name: "Sara Lee",
+    designation: "CFO",
+    company: "Acme Co",
+    image: "https://randomuser.me/api/portraits/women/4.jpg",
+  },
+  {
+    testimonial:
+      "I've never met a web developer who truly cares about their clients' success like Rick does.",
+    name: "Chris Brown",
+    designation: "COO",
+    company: "DEF Corp",
+    image: "https://randomuser.me/api/portraits/men/5.jpg",
+  },
+  {
+    testimonial:
+      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+    name: "Lisa Wang",
+    designation: "CTO",
+    company: "456 Enterprises",
+    image: "https://randomuser.me/api/portraits/women/6.jpg",
+  },
+];
+
+const projects = [
+  {
+    name: "Stan.ly",
+    description:
+      "Developed stan.ly's URL shortening platform, leading it from concept to production. Designed and architected the system for optimal performance and scalability, utilizing technologies like React and TypeScript for the frontend, MongoDB for the backend, and AWS, Amplify, and Lambda for hosting and scalability. The platform offered user-customizable short codes for convenience and included essential features like redirection, pagination, navigation, and search functionality, all aimed at providing a seamless user experience, complemented by a custom 404 error page.",
+    tags: [
+      {
+        name: "TypeScript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "React",
+        color: "green-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "AWS - Amplify",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "AWS - Lambda",
+        color: "green-text-gradient",
+      },
+      {
+        name: "React-Bootstrap",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: stan_ly,
+    source_code_link: "https://www.stan.ly/",
+  },
+  {
+    name: "Cloth Shopping Using Augmented Reality",
+    description:
+      "'Clothes Shopping Using Augmented Reality' is a web-based tool that utilizes a scanned image of the user's body and text input specifying the desired clothing items. It then filters clothing data based on these inputs and virtually augments the selected clothes onto the user's scanned image. This innovative solution eliminates the need for users to manually try on clothes in physical stores, offering a more convenient and time-saving way to visualize clothing items on themselves.",
+    tags: [
+      {
+        name: "HTML",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Bootstrap",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Augmented Reality",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "JavaScript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Python",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Flask",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Machine Learning",
+        color: "green-text-gradient",
+      },
+      {
+        name: "SQL-alchemy",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: Picture1,
+    source_code_link: "https://github.com/preetpatel11/Cloth-Shopping-Using-Augmented-Reality.git",
+  },
+  {
+    name: "Fitness World",
+    description:
+      "Designed and developed a user-friendly fitness website, incorporating a wide array of features. The website boasted an interactive exercise platform enriched with online courses, informative blogs, and a BMI reporting system, all carefully curated with input from fitness experts. Its full responsiveness across various devices guaranteed an exceptional user experience. To maintain data accuracy and security, implemented rigorous data validation processes. Throughout the project, demonstrated proficiency in key web development technologies, including HTML, CSS, and JavaScript, ensuring a seamless and robust fitness platform for users to achieve their health and fitness goals.",
+    tags: [
+      {
+        name: "HTML",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "JavaScript",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Bootstrap",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: FitnessWorld,
+    source_code_link: "https://github.com/preetpatel11/Web-Programming-Final-Project",
+  },
+  {
+    name: "Prediction/Analysis of Heart Attack Chances",
+    description:
+      "In this project, the objective is to predict the likelihood of a heart attack in patients, utilizing the 'heart.csv' dataset featuring 14 relevant features such as age, sex, chest pain type, and more. The binary target field distinguishes between '0' for a lower chance of a heart attack and '1' for a higher chance. The dataset is divided into 80% training and 20% testing data. Two models, a Logistic Regression Model and a k-NN model with the Euclidean metric, are employed for prediction. The project concludes with a code file presenting model results, dataset visualizations, and insightful descriptions, offering a comprehensive approach to assessing heart attack risks.",
+    tags: [
+      {
+        name: "Pandas",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Numpy",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Seaborn",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "MatplotLib",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: Picture2,
+    source_code_link: "https://github.com/preetpatel11/Data-Analytics-Final-Project",
+  },
+];
+
+export { services, technologies, experiences, testimonials, projects };
