@@ -19,6 +19,7 @@ import {
   figma,
   stan,
   softvan,
+  gtu,
   Picture1,
   Picture2,
   FitnessWorld,
@@ -130,6 +131,7 @@ const experiences = [
       "Designed and architected the system for optimal performance and scalability.",
       "Utilized React and TypeScript for the frontend, MongoDB for the backend, and harnessed AWS, Amplify, and Lambda for hosting and scalability.",
       "Implemented user-customizable short codes to enhance user convenience along with key features including redirection, pagination, navigation, search functionality and implemented a custom 404 error page for a seamless user experience.",
+      "Achieved a remarkable 80% increase in site usage, indicating a substantial boost in user engagement and satisfaction.",
     ],
   },
   {
@@ -140,23 +142,22 @@ const experiences = [
     date: "Jan 2021 - June 2021",
     points: [
       "Independently developed and deployed a dynamic e-commerce website utilizing Python, Flask, OpenCV, MySQL, HTML, CSS, and JavaScript.",
-      "Implemented essential features, including user authentication, login, registration, and password recovery, as part of the 'Cloth Shopping Using Augmented Reality' project.",
+      "Implemented essential features, including user authentication, login, registration, and password recovery, which led to a 75% boost in user engagement and consequently, increased sales.",
       "Collaborated closely with mentors and team members to devise coding strategies and implementation approaches, facilitating knowledge transfer and practical application of learned skills.",
     ],
   },
-  // {
-  //   title: "Web Developer",
-  //   company_name: "Shopify",
-  //   icon: shopify,
-  //   iconBg: "#383E56",
-  //   date: "Jan 2022 - Jan 2023",
-  //   points: [
-  //     "Developing and maintaining web applications using React.js and other related technologies.",
-  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //     "Implementing responsive design and ensuring cross-browser compatibility.",
-  //     "Participating in code reviews and providing constructive feedback to other developers.",
-  //   ],
-  // },
+  {
+    title: "Student Laboratory Assistant",
+    company_name: "GTU - L. J. Institute of Engineering and Technology",
+    icon: gtu,
+    iconBg: "#383E56",
+    date: "Sep 2017 - May 2021",
+    points: [
+      "Functioned as a Lab Assistant, responsible for overseeing and instructing students in laboratory procedures, ensuring their adherence to safety protocols, and providing guidance on experiment execution",
+      "Conducted regular equipment maintenance and calibration, guaranteeing the readiness and optimal functioning of laboratory apparatus before each session to facilitate a smooth and uninterrupted learning experience.",
+      "Assisted in the management and organization of laboratory resources, including inventory control, equipment procurement, and troubleshooting, to maintain a well-equipped and efficient learning environment for students.",
+    ],
+  },
   // {
   //   title: "Full stack Developer",
   //   company_name: "Meta",
