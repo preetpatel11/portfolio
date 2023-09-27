@@ -22,9 +22,10 @@ const ServiceCard = ({ index, title, icon }) => {
           }}
           className="bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col"
         >
-          <img src={icon} alt={title} className="w-16 h-16 object-contain"/>
-          <h3 className="text-white text-[20px] font-bold text-center">{title}</h3>
-
+          <img src={icon} alt={title} className="w-16 h-16 object-contain" />
+          <h3 className="text-white text-[20px] font-bold text-center">
+            {title}
+          </h3>
         </div>
       </motion.div>
     </Tilt>
@@ -43,13 +44,16 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        A highly motivated, detailed oriented and avid learner with a strong
-        foundation in Java, Python, Web Technologies(HTML, CSS, JavaScript), SQL
-        database with Pandas, Numpy, libraries and Flask, Springboot, Django
-        frameworks. I have done serval projects using these technologies
-        including modern framework like Django and Flask, python and Java as my
-        backend programming and Bootstrap, Javascript , HTML and CSS as my front
-        end programming.
+        Results-driven Software Engineer Intern with a strong foundation in web
+        development, data analysis, and machine learning. Experienced in
+        designing and building dynamic websites and applications, from concept
+        to production, using a diverse technology stack. Proficient in a range
+        of programming languages, frameworks, and tools, including Java, Python,
+        Spring Boot, React, and AWS. Adept at collaborating with
+        cross-functional teams and delivering high-impact solutions. Committed
+        to continuous learning and staying current with emerging technologies.
+        Seeking opportunities to leverage my skills and contribute to innovative
+        projects in a dynamic professional environment.
       </motion.p>
 
       <div className="mt-20 flex fle-wrap gap-10">
@@ -61,4 +65,4 @@ const About = () => {
   );
 };
 
-export default SectionWrapper(About,"about");
+export default SectionWrapper(About, "about");
