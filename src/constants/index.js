@@ -24,6 +24,8 @@ import {
   Picture2,
   FitnessWorld,
   stan_ly,
+  csi,
+  luminious,
   jobit,
   tripguide,
 } from "../assets";
@@ -121,17 +123,34 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Software Engineer Intern",
-    company_name: "Stan",
-    icon: stan,
-    iconBg: "#383E56",
-    date: "April 2023 - August 2023",
+    title: "Full Stack Developer",
+    company_name: "CSI Consulting",
+    icon: csi,
+    iconBg: "#E6DEDD",
+    date: "May 2023 - Present",
     points: [
-      "Worked as part of the team to build the end-to-end development of stan.ly's URL shortening platform, taking it from concept to production.",
-      "Designed and architected the system for optimal performance and scalability.",
-      "Utilized React and TypeScript for the frontend, MongoDB for the backend, and harnessed AWS, Amplify, and Lambda for hosting and scalability.",
-      "Implemented user-customizable short codes to enhance user convenience along with key features including redirection, pagination, navigation, search functionality and implemented a custom 404 error page for a seamless user experience.",
-      "Achieved a remarkable 80% increase in site usage, indicating a substantial boost in user engagement and satisfaction.",
+      "Contributed to the development and enhancement of a Time Management system as an active member of an Agile/Scrum team, utilizing Java Spring Boot and React JS.",
+      "Incorporated both existing and new features into the application, demonstrating adaptability to evolving project requirements.",
+      "Integrated React-based frontend with RESTful Web APIs, ensuring seamless interaction with MySQL databases.",
+      "Analyzed data in CSV and XML formats for reporting purposes, enhancing data-driven decision-making processes.",
+      "Collaborated on a Single Page Application with MVC clients and React JS-based front end, focusing on intuitive UI design.",
+      "Worked extensively on Payroll system modules, adding/modifying features according to business needs, and contributed to the development of business layers and other functional modules.",
+    ],
+  },
+  {
+    title: "Software Developer",
+    company_name: "Luminus Financial",
+    icon: luminious,
+    iconBg: "#383E56",
+    date: "January 2022 - February 2023",
+    points: [
+      "Supported and enhanced existing ASP.NET web-based systems, adding features for continuous improvement.",
+      "Contributed to the development of an ASP.NET Web API application, demonstrating adaptability in web-based environments.",
+      "Wrote and modified stored procedures for optimized database interactions within the ASP.NET Web API.",
+      "Developed controller classes and business layers, reinforcing the structural integrity of the application.",
+      "Worked on various aspects and modules of the life insurance business, gaining diverse experience.",
+      "Implemented comprehensive Server-Side Validation using annotation classes for enhanced data integrity and security",
+      "Collaborated effectively with technical and non-technical stakeholders, ensuring seamless communication and project alignment.",
     ],
   },
   {
