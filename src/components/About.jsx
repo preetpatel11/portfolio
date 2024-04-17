@@ -44,16 +44,19 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        Results-driven Software Engineer Intern with a strong foundation in web
-        development, data analysis, and machine learning. Experienced in
-        designing and building dynamic websites and applications, from concept
-        to production, using a diverse technology stack. Proficient in a range
-        of programming languages, frameworks, and tools, including Java, Python,
-        Spring Boot, React, and AWS. Adept at collaborating with
-        cross-functional teams and delivering high-impact solutions. Committed
-        to continuous learning and staying current with emerging technologies.
-        Seeking opportunities to leverage my skills and contribute to innovative
-        projects in a dynamic professional environment.
+        Software engineering professional with over 3 years of experience in
+        full-stack development, specializing in architecting and developing new
+        features Experienced in object-oriented programming, developing,
+        testing, debugging code and designing interfaces. Proficient in Java,
+        C#, JavaScript framework like React JS, Node JS, with an exposure in
+        Typescript and AWS server less technologies like AWS Lambda. Proven
+        ability to work collaboratively in Agile/Scrum environments with a
+        strong attention to detail. Experienced in collaborating with
+        cross-functional teams to drive projects towards a common vision, while
+        adhering to software engineering standards and best practices.
+        Continuously learning and implementing advanced concepts to build
+        user-friendly web applications. successful working in both team and
+        self-directed settings.
       </motion.p>
 
       <div className="mt-20 flex fle-wrap gap-10">
