@@ -37,6 +37,8 @@ import FitnessWorld from "./FitnessWorld.png"
 import jobit from "./jobit.png";
 import stan_ly from "./stan_ly.png"
 import tripguide from "./tripguide.png";
+import csi from "./company/csi.png"
+import luminious from "./company/luminious.png"
 
 export {
   logo,
@@ -76,4 +78,6 @@ export {
   tesla,
   jobit,
   tripguide,
+  csi,
+  luminious,
 };
