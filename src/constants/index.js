@@ -129,7 +129,7 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "May 2023 - Present",
     points: [
-      "Contributed to the development and enhancement of a Time Management system as an active member of an Agile/Scrum team, utilizing Java Spring Boot and React JS.",
+      "•	Analyzed and translated business requirements into technical solutions, contributing to the development and enhancement of a Time Management system using C# and ReactJS within an Agile/Scrum team.",
       "Incorporated both existing and new features into the application, demonstrating adaptability to evolving project requirements.",
       "Integrated React-based frontend with RESTful Web APIs, ensuring seamless interaction with MySQL databases.",
       "Analyzed data in CSV and XML formats for reporting purposes, enhancing data-driven decision-making processes.",
