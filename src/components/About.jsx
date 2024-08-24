@@ -44,19 +44,15 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        Software engineering professional with over 3 years of experience in
-        full-stack development, specializing in architecting and developing new
-        features Experienced in object-oriented programming, developing,
-        testing, debugging code and designing interfaces. Proficient in Java,
-        C#, JavaScript framework like React JS, Node JS, with an exposure in
-        Typescript and AWS server less technologies like AWS Lambda. Proven
-        ability to work collaboratively in Agile/Scrum environments with a
-        strong attention to detail. Experienced in collaborating with
-        cross-functional teams to drive projects towards a common vision, while
-        adhering to software engineering standards and best practices.
-        Continuously learning and implementing advanced concepts to build
-        user-friendly web applications. successful working in both team and
-        self-directed settings.
+        Experienced Software Developer with a postgraduate degree in Information
+        Technology Solutions from Humber College. Proficient in C#, HTML, CSS,
+        JavaScript, React, Typescript and frameworks like Entity Framework..
+        Skilled in Object-Oriented Design and possess knowledge SDLC and Amazon
+        Web Services like Lambda, EC2,S3, Amplify. Proven ability to work well
+        in both team-based and high-pressure circumstances in Agile/Scrum
+        environments with strong attention to detail. Additionally, I bring
+        valuable customer service and team leadership experience to the table,
+        making me a well-rounded asset for innovative projects.
       </motion.p>
 
       <div className="mt-20 flex fle-wrap gap-10">
