@@ -44,15 +44,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        Experienced Software Developer with a postgraduate degree in Information
-        Technology Solutions from Humber College. Proficient in C#, HTML, CSS,
-        JavaScript, React, Typescript and frameworks like Entity Framework..
-        Skilled in Object-Oriented Design and possess knowledge SDLC and Amazon
-        Web Services like Lambda, EC2,S3, Amplify. Proven ability to work well
-        in both team-based and high-pressure circumstances in Agile/Scrum
-        environments with strong attention to detail. Additionally, I bring
-        valuable customer service and team leadership experience to the table,
-        making me a well-rounded asset for innovative projects.
+         Software developer with Over 2 years of combined professional and internship experience in designing, developing, and maintaining dynamic web applications. Proficient in building complex front-end interfaces using React.js, JavaScript/TypeScript, and HTML5/CSS3, and developing robust back-end systems with C#, SQL Server, REST APIs, AWS, and ASP.NET. Flexible and fast learner who thrives in dynamic environments, with exceptional attention to detail and strong organizational, prioritization, and project management skills.Passionate about delivering clean, testable code and improving installation and update experiences through innovative, collaborative projects.
       </motion.p>
 
       <div className="mt-20 flex fle-wrap gap-10">
